@@ -2,7 +2,7 @@
     "icon": "/assets/redmediaIcon.png",
     "titulo": "RedMedia",
     "imagen": "/assets/redmedia.png",
-    "idea": "RedMedia nació como un projecto facultativo en el cual construimos una red social desde cero, con el objetivo de aprender y aplicar tecnologías de desarrollo móvil, utilizando la metodologia agile como lo es Scrum",
+    "idea": "RedMedia nació como un projecto facultativo en el cual construimos una red social desde cero, con el objetivo de aprender y aplicar tecnologías de desarrollo móvil, utilizando metodologia agile como lo es Scrum",
     "descripcion": "RedMedia es una red social móvil que permite a los usuarios crear perfiles, publicar contenido, interactuar mediante comentarios y likes, y guardar publicaciones.",
     "tecnologias": [
         "Node.js",
@@ -24,9 +24,5 @@
         "Testing de la aplicación"
     ],
     "frontend": "https://github.com/MauEscalante/RedMediaMOBILE",
-    "backend": "https://github.com/MauEscalante/BackEnd-RedMedia",
-    "colores":{
-        "title":"rgb(160,30,20)",
-        "text":"rgb(160,30,20)"
-    }
+    "backend": "https://github.com/MauEscalante/BackEnd-RedMedia"
 }

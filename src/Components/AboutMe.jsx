@@ -44,6 +44,7 @@ const AboutMe = () => {
           <li>Lenguajes y Frameworks: JavaScript, React, React Native, Node.js, Express</li>
           <li>Bases de Datos: SQL Server, MongoDB</li>
           <li>Metodologías y Principios: SOLID, Git, GitHub</li>
+          <li>Otros: API RESTful, Estructuras de Datos</li>
         </ul>
       </section>
       <section className={styles.section}>
