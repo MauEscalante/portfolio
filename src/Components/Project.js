@@ -15,7 +15,7 @@ const Project = () => {
         try {
             iconSrc = require(`../assets/${iconSrc.replace('/assets/', '')}`);
         } catch (e) {
-            iconSrc = data.icon; // fallback
+            iconSrc = null
         }
     }
     return (
@@ -26,17 +26,17 @@ const Project = () => {
                         {iconSrc && (
                             <img src={iconSrc} alt="icono proyecto" className={styles.projectIcon} />
                         )}
-                        <div className={styles.projectTitle}>{data.titulo}</div>
+                        <div className={styles.projectTitle} style={{ color: data.colores.title }}>{data.titulo}</div>
                     </div>
                     <div className={styles.projectIdea}>{data.idea}</div>
                 </div>
             </header>
             <section className={styles.projectSection}>
-                <h2>Descripcción</h2>
+                <h2 style={{ color: data.colores.text }}>Descripcción</h2>
                 <p>{data.descripcion}</p>
             </section>
             <section className={styles.projectSection}>
-                <h2>Tecnologías</h2>
+                <h2 style={{ color: data.colores.text }}>Tecnologías</h2>
                 <ul className={styles.projectTechList}>
                     {data.tecnologias && data.tecnologias.map((tech, idx) => (
                         <li key={idx}>{tech}</li>
@@ -44,7 +44,7 @@ const Project = () => {
                 </ul>
             </section>
             <section className={styles.projectSection}>
-                <h2>Características</h2>
+                <h2  style={{ color: data.colores.text }}>Características</h2>
                 <ul className={styles.projectFeaturesList}>
                     {data.caracteristicas && data.caracteristicas.map((car, idx) => (
                         <li key={idx}>{car}</li>
@@ -53,11 +53,11 @@ const Project = () => {
             </section>
 
             <section className={styles.projectSection}>
-                <h2>Repositorios</h2>
+                <h2 style={{ color: data.colores.text }}>Repositorios</h2>
                 <ul className={styles.projectFeaturesList}>
                     {data.frontend && (
                         <li>
-                            <span className={styles.repoLabel}>Frontend: </span>
+                            <span className={styles.repoLabel} style={{ color: data.colores.text }}>Frontend: </span>
                             <a
                                 href={data.frontend}
                                 target="_blank"
@@ -70,7 +70,7 @@ const Project = () => {
                     )}
                     {data.backend && (
                         <li>
-                            <span className={styles.repoLabel}>Backend: </span>
+                            <span className={styles.repoLabel} style={{ color: data.colores.text }}>Backend: </span>
                             <a
                                 href={data.backend}
                                 target="_blank"
@@ -79,6 +79,20 @@ const Project = () => {
                             >
                                 {data.backend}
                             </a>
+                        </li>
+                    )}
+                     {data.despliegue && (
+                        <li>
+                            <span className={styles.repoLabel} style={{ color: data.colores.text }}>Producción: </span>
+                            <a
+                                href={data.despliegue}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={styles.repoLink}
+                            >
+                                {data.despliegue}
+                            </a>
+                            <span className={styles.repoLabel} style={{ color: data.colores.text, fontSize: '0.99rem' }}> (puede tardar un momento en cargar)</span>
                         </li>
                     )}
                 </ul>

@@ -24,6 +24,11 @@
         "Interfaz moderna y responsiva"
     ],
     "frontend": "https://github.com/MauEscalante/ahorrando-Front",
-    "backend": "https://github.com/MauEscalante/ahorrando-Back"
+    "backend": "https://github.com/MauEscalante/ahorrando-Back",
+    "despliegue": "https://ahorrando-gaming.vercel.app/",
+    "colores":{
+        "title":"#90cdf4",
+        "text":"#63b3ed"
+    }
 
 }

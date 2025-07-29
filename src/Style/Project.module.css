@@ -42,7 +42,6 @@
     font-size: 2.2rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    color: #90cdf4;
     text-align: center;
 }
 
@@ -65,10 +64,7 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
 }
 
-.projectSection h2 {
-    color: #63b3ed;
-    margin-bottom: 0.7rem;
-}
+
 
 .projectTechList,
 .projectFeaturesList {
@@ -80,28 +76,12 @@
     margin-bottom: 0.4rem;
 }
 
-.projectBackBtn {
-    position: absolute;
-    top: 18px;
-    right: 24px;
-    background: #ffd700;
-    color: #232526;
-    border: none;
-    border-radius: 8px;
-    padding: 0.5rem 1.2rem;
-    font-weight: 600;
-    cursor: pointer;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
-    transition: background 0.2s;
-}
 
-.projectBackBtn:hover {
-    background: #ffe066;
-}
 
 .repoLabel {
     color: #ffd700;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 1.1rem;
 }
 
 .repoLink {
