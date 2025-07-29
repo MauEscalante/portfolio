@@ -1,0 +1,28 @@
+{
+    "icon": "/assets/gimnasioIcon.png",
+    "titulo": "GimnasioPOO",
+    "imagen": "/assets/gimnasio.png",
+    "idea": "Este es un proyecto universitario donde pude aplicar los conceptos de Programación Orientada a Objetos: la gestión de un gimnasio. La idea es simular el funcionamiento de un gimnasio, permitiendo administrar sedes, actividades, usuarios y productos, todo desde una estructura robusta y escalable.",
+    "descripcion": "GimnasioPOO es una aplicación de escritorio desarrollada en Java que gestiona las operaciones de una cadena de gimnasios con múltiples sedes, niveles de socios y clases. Permite crear y administrar sedes, usuarios con distintos perfiles (cliente, administrativo, soporte técnico), actividades y productos. El sistema contempla la asignación y reserva de clases presenciales y virtuales, control de stock y desgaste de artículos, cálculo automático de rentabilidad de clases, y manejo de excepciones personalizadas. La interfaz gráfica facilita la interacción de los distintos roles y la gestión eficiente de todas las operaciones del gimnasio.",
+    "tecnologias": [
+        "Java",
+        "Swing",
+        "POO (Programación Orientada a Objetos)"
+    ],
+    "caracteristicas": [
+        "Gestión de sedes con niveles mínimos de aceptación y restricción por barrio",
+        "Administración de usuarios con perfiles diferenciados (cliente, administrativo, soporte técnico)",
+        "Creación y gestión de actividades y clases (presenciales y virtuales)",
+        "Reserva de clases por parte de los clientes",
+        "Control de stock y desgaste/amortización de artículos (pesas, colchonetas, accesorios)",
+        "Monitoreo y alerta de stock insuficiente para clases",
+        "Transición de estados de clase (Agendada, Confirmada, Finalizada)",
+        "Cálculo automático de rentabilidad de clases considerando costos e ingresos",
+        "Gestión de alta, baja y modificación de clientes y artículos",
+        "Validaciones de datos y manejo de excepciones personalizadas",
+        "Interfaz gráfica intuitiva con Swing",
+        "Implementación de patrones de diseño (Singleton, Controlador, Strategy)",
+        "Simulación completa de operaciones típicas de un gimnasio"
+    ],
+    "backend": "https://github.com/MauEscalante/GimnasioPOO"
+}

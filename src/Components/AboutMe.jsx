@@ -1,8 +1,10 @@
 import ahorrando from '../assets/ahorrando.png'
 import redmedia from '../assets/redmedia.png';
+import gimnasio from '../assets/gimnasio.png';
 import { useNavigate } from 'react-router-dom';
 import ahorrandoData from '../proyectos/ahorrando.json';
 import redmediaData from '../proyectos/redmedia.json';
+import gimnasioData from '../proyectos/gimnasioPOO.json';
 import styles from '../Style/AboutMe.module.css'
 import fotoCv from '../assets/fotoCv.jpeg';
 
@@ -79,7 +81,10 @@ const AboutMe = () => {
             <img src={ahorrando} alt="Scrapper Ahorrando" />
             <div className={styles.resourceTitle}>Scrapper Ahorrando</div>
           </div>
-          
+          <div className={styles.resourceCard} onClick={() => handleProjectClick(gimnasioData)}>
+            <img src={gimnasio} alt={gimnasioData.titulo} />
+            <div className={styles.resourceTitle}>{gimnasioData.titulo}</div>
+          </div>
         </div>
       </section>
     </div>

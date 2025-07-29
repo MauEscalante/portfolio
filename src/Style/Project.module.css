@@ -93,3 +93,10 @@
     font-weight: 500;
     word-break: break-all;
 }
+
+.repoLink:hover {
+    color: #a4cce9;
+    transition: color 0.3s ease;
+    cursor: pointer;
+
+}
