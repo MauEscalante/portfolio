@@ -1,0 +1,112 @@
+/* Centra y junta el icono y el título */
+.projectTitleRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.projectIcon {
+  width: 50px;
+  height: 50px;
+  margin-right: 4px;
+}
+.projectContainer {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    background: linear-gradient(135deg, #232526 0%, #414345 100%);
+    border-radius: 20px;
+    box-shadow: 0 6px 32px rgba(0, 0, 0, 0.30);
+    color: #f3f4f6;
+    position: relative;
+}
+
+.projectHeader {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.projectImage {
+    min-width: 160px;
+    max-width: 180px;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
+    background: #181a20;
+    padding: 8px;
+}
+
+.projectTitle {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #90cdf4;
+    text-align: center;
+}
+
+.projectIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.projectIdea {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #b3b3b3;
+}
+
+.projectSection {
+    margin-bottom: 2rem;
+    background: #23272b;
+    border-radius: 12px;
+    padding: 1.2rem 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+}
+
+.projectSection h2 {
+    color: #63b3ed;
+    margin-bottom: 0.7rem;
+}
+
+.projectTechList,
+.projectFeaturesList {
+    padding-left: 1.2rem;
+}
+
+.projectTechList li,
+.projectFeaturesList li {
+    margin-bottom: 0.4rem;
+}
+
+.projectBackBtn {
+    position: absolute;
+    top: 18px;
+    right: 24px;
+    background: #ffd700;
+    color: #232526;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+    transition: background 0.2s;
+}
+
+.projectBackBtn:hover {
+    background: #ffe066;
+}
+
+.repoLabel {
+    color: #ffd700;
+    font-weight: 600;
+}
+
+.repoLink {
+    color: #f3f4f6;
+    text-decoration: none;
+    font-weight: 500;
+    word-break: break-all;
+}

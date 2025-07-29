@@ -2,6 +2,7 @@
   margin-bottom: 2rem;
   font-size: 1.2rem;
 }
+
 .contactLine a {
   color: inherit;
   text-decoration: none;
@@ -11,18 +12,21 @@
   margin-top: 1em;
   margin-bottom: 0.1em;
 }
+
 .headerText p:first-of-type {
   margin-top: 0.1em;
 }
+
 .container {
   max-width: 900px;
   margin: 2rem auto;
   padding: 2rem;
   background: #181a20;
   border-radius: 16px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
   color: #e2e8f0;
 }
+
 .header {
   text-align: center;
   margin-bottom: 2rem;
@@ -33,6 +37,7 @@
   background: none;
   padding: 0;
 }
+
 .headerContent {
   display: flex;
   align-items: center;
@@ -50,9 +55,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
   margin: 0 auto;
 }
+
 .headerPhoto img {
   width: 100%;
   height: 100%;
@@ -67,38 +73,47 @@
   justify-content: center;
   align-items: flex-start;
 }
+
 .header h1 {
   font-size: 2.5rem;
   color: #90cdf4;
 }
+
 .header p {
   color: #a0aec0;
   font-size: 1.2rem;
 }
+
 .section {
   margin-bottom: 2rem;
   color: #e2e8f0;
 }
+
 .section h2 {
   color: #63b3ed;
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
-.section p, .section ul {
+
+.section p,
+.section ul {
   color: #cbd5e1;
   font-size: 1rem;
 }
+
 .socialLinks {
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
 }
+
 .socialLinks a {
   color: #63b3ed;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.2s;
 }
+
 .socialLinks a:hover {
   color: #90cdf4;
 }
@@ -123,18 +138,19 @@
 .resourceCard {
   background: #23272f;
   border-radius: 16px;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
   overflow: hidden;
   text-decoration: none;
   color: #e2e8f0;
   display: flex;
   flex-direction: column;
   transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
 }
 
 .resourceCard:hover {
   transform: translateY(-4px) scale(1.03);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
 }
 
 .resourceCard img {

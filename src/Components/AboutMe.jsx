@@ -1,8 +1,14 @@
-import React from 'react';
+import ahorrando from '../assets/ahorrando.png'
+import { useNavigate } from 'react-router-dom';
+import ahorrandoData from '../proyectos/ahorrando.json';
 import styles from '../Style/AboutMe.module.css'
 import fotoCv from '../assets/fotoCv.jpeg';
 
 const AboutMe = () => {
+  const navigate = useNavigate();
+  const handleProjectClick = () => {
+    navigate('/project', { state: { data: ahorrandoData } });
+  };
   return (
     <div className={styles.container}>
       <header className={styles.header}>
@@ -65,10 +71,10 @@ const AboutMe = () => {
             <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Red Social" />
             <div className={styles.resourceTitle}>Red Social Mobile</div>
           </a>
-          <a className={styles.resourceCard} href="https://discord.com/" target="_blank" rel="noopener noreferrer">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Discord_logo.svg" alt="Scrapper Ahorrando" />
+          <div className={styles.resourceCard} onClick={handleProjectClick}>
+            <img src={ahorrando} alt="Scrapper Ahorrando" />
             <div className={styles.resourceTitle}>Scrapper Ahorrando</div>
-          </a>
+          </div>
           <a className={styles.resourceCard} href="https://telegram.org/" target="_blank" rel="noopener noreferrer">
             <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Canales Telegram" />
             <div className={styles.resourceTitle}>Canales Telegram</div>
