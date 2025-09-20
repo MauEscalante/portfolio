@@ -30,23 +30,22 @@ const AboutMe = () => {
       <section className={styles.section}>
         <h2>Sobre mi</h2>
         <p>
-          Soy un profesional apasionado por la tecnología y el desarrollo de software, con un fuerte enfoque en la resolución de problemas y la optimización de procesos. Poseo un alto nivel de compromiso con el aprendizaje continuo y la mejora de habilidades técnicas.
+          actualmente estoy en el cuarto año de la Licenciatura en Sistemas. A lo largo de la carrera no solo adquirí conocimientos en bases de datos, lenguajes de programacion, APIs y en diversas tecnologías, sino que también entendí la importancia de la organización, la comunicación, documentación y el trabajo en equipo en un proyecto, habilidades que considero fundamentales para mi desarrollo profesional.
         </p>
       </section>
       <section className={styles.section}>
         <h2>Educación</h2>
         <ul>
           <li><strong>Universidad Argentina de la Empresa</strong> (2021 - actualidad, 32 materias aprobadas)<br />Licenciatura en Gestión de Tecnología de la Información</li>
-          <li><strong>Instituto Manuel Belgrano</strong> (2014 - 2020)<br />Secundario Completo</li>
         </ul>
       </section>
       <section className={styles.section}>
         <h2>Habilidades Técnicas</h2>
         <ul>
-          <li>Lenguajes y Frameworks: JavaScript, React, React Native, Node.js, Express</li>
+          <li>Lenguajes y Frameworks: JavaScript, React, React Native, Node.js, Express, Python</li>
           <li>Bases de Datos: SQL Server, MongoDB</li>
           <li>Metodologías y Principios: SOLID, SCRUM</li>
-          <li>Otros: API RESTful, Estructuras de Datos, Git, GitHub</li>
+          <li>Otros: API RESTful, Postman, Estructuras de Datos, Git, GitHub</li>
         </ul>
       </section>
       <section className={styles.section}>
@@ -66,7 +65,7 @@ const AboutMe = () => {
       <section className={styles.section}>
         <div className={styles.contactLine}>
           <h2>Contacto:</h2>
-          <a href="mailto:escalantemauricio2002@gmail.com">escalantemauricio2002@gmail.com</a> | 11 6295-3547 | Montevideo 1218, Bernal Oeste
+          <a href="mailto:escalantemauricio2002@gmail.com">escalantemauricio2002@gmail.com</a> | 11 6295-3547 | Bernal Oeste, Quilmes
         </div>
       </section>
       
