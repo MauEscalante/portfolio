@@ -9,6 +9,10 @@
         "Swing",
         "POO (Programación Orientada a Objetos)"
     ],
+    "stack":[
+        "Java",
+        "POO "
+    ],
     "caracteristicas": [
         "Gestión de sedes con niveles mínimos de aceptación y restricción por barrio",
         "Administración de usuarios con perfiles diferenciados (cliente, administrativo, soporte técnico)",

@@ -1,15 +1,20 @@
 {
-    "icon":"/assets/ahorrandoIcon.png",
+    "icon": "/assets/ahorrandoIcon.png",
     "titulo": "Ahorrando",
     "imagen": "/assets/ahorrando.png",
     "idea": "Arranqué este proyecto porque cada vez que quiero actualizar mi pc, termino abriendo mil pestañas y perdiendo tiempo buscando el mejor precio. Me frustra no tener una forma rápida de comparar entre tiendas, y muchas veces siento que podría estar ahorrando si tuviera toda la información en un solo lugar y viendo si es el momento en el que me conviene. Así nació 'Ahorrando': una herramienta que me divierte construir y que, sobre todo, resuelve un problema real que tengo cada vez que quiero invertir en tecnología.",
     "descripcion": "Ahorrando es una aplicación web que permite a los usuarios comparar precios de productos tecnológicos en diferentes tiendas argentinas. El backend realiza scraping de sitios web, almacenando los datos en MongoDB y exponiendo una API para el frontend. El frontend muestra los productos, permite búsquedas, registro de usuarios y visualización de detalles, ayudando a los usuarios a tomar mejores decisiones de compra. Ademas de enviar notificaciones por email cuando los productos en favoritos bajan de precio.",
     "tecnologias": [
-        "Node.js",
         "Express.js",
-        "MongoDB",
+        "Puppeteer",
+        "Nodemailer",
+        "JWT"        
+    ],
+    "stack": [
         "React.js",
-        "JavaScript"
+        "Node.js",
+        "MongoDB",
+        "API RESTful"
     ],
     "caracteristicas": [
         "Scraping de precios en tiendas tecnológicas argentinas",
@@ -26,5 +31,4 @@
     "frontend": "https://github.com/MauEscalante/ahorrando-Front",
     "backend": "https://github.com/MauEscalante/ahorrando-Back",
     "despliegue": "https://ahorrando-gaming.vercel.app/"
-
 }

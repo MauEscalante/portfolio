@@ -77,18 +77,38 @@ const AboutMe = () => {
           <div className={styles.resourceCard} onClick={() => handleProjectClick(redmediaData)}>
             <img src={redmedia} alt="Red Social" />
             <div className={styles.resourceTitle}>Red Social Mobile</div>
+            <div className={styles.techTags}>
+              {redmediaData.stack?.map((tech, index) => (
+                <span key={index} className={styles.techTag}>{tech}</span>
+              ))}
+            </div>
           </div>
           <div className={styles.resourceCard} onClick={() => handleProjectClick(ahorrandoData)}>
             <img src={ahorrando} alt="Scrapper Ahorrando" />
             <div className={styles.resourceTitle}>Scrapper Ahorrando</div>
+            <div className={styles.techTags}>
+              {ahorrandoData.stack?.map((tech, index) => (
+                <span key={index} className={styles.techTag}>{tech}</span>
+              ))}
+            </div>
           </div>
           <div className={styles.resourceCard} onClick={() => handleProjectClick(gimnasioData)}>
             <img src={gimnasio} alt={gimnasioData.titulo} />
             <div className={styles.resourceTitle}>{gimnasioData.titulo}</div>
+            <div className={styles.techTags}>
+              {gimnasioData.stack?.map((tech, index) => (
+                <span key={index} className={styles.techTag}>{tech}</span>
+              ))}
+            </div>
           </div>
           <div className={styles.resourceCard} onClick={() => handleProjectClick(signalinkData)}>
             <img src={signalink} alt={signalinkData.titulo} />
             <div className={styles.resourceTitle}>{signalinkData.titulo}</div>
+            <div className={styles.techTags}>
+              {signalinkData.stack?.map((tech, index) => (
+                <span key={index} className={styles.techTag}>{tech}</span>
+              ))}
+            </div>
           </div>
         </div>
       </section>

@@ -5,10 +5,18 @@
     "idea": "RedMedia nació como un projecto facultativo en el cual construimos una red social desde cero, con el objetivo de aprender y aplicar tecnologías de desarrollo móvil, utilizando metodologia agile como lo es Scrum",
     "descripcion": "RedMedia es una red social móvil desarrollada para Android, que permite a los usuarios crear y editar perfiles, compartir y comentar contenido multimedia, interactuar con amigos y seguidores, y disfrutar de una experiencia social completa.",
     "tecnologias": [
-        "Node.js",
         "Express.js",
-        "MongoDB",
-        "React Native"
+        "API REST",
+        "JWT",
+        "Nodemailer",
+        "Multer",
+        "Mongoose"
+    ],
+    "stack":[
+        "React Native",
+        "JavaScript",
+        "Node.js",
+        "MongoDB"
     ],
     "caracteristicas": [
         "Registro, login y recuperación de contraseña con validación de email",

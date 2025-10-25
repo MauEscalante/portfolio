@@ -5,18 +5,22 @@
     "idea": "Este proyecto universitario surgio por el interes de fomentar la integracion de personas con discapacidad auditiva a traves de la tecnologia. La idea principal es desarrollar una aplicacion mobile  para habilitar la comunicación bidireccional en tiempo real entre lengua de señas, texto y audio, facilitando la inclusion social y mejorando la calidad de vida de estas personas.",
     "descripcion": "Lo que desarrollamos es un prototipo que combina dos cosas: por un lado, un guante inteligente hecho por SingaLink IMPA, y por el otro, una aplicación móvil por Singalink UADE. Los dos se conectan por Bluetooth y lo que hacen juntos es traducir en tiempo real la lengua de señas a texto y a audio. Con la aplicacion se podra calibrar el guante de manera personalizada, ver el historial de conversaciones, y tambien detectar a otras personas cercanas que tengan la app instalada para facilitar la comunicacion. Ademas, la app incluye funciones adicionales como mensajeria de texto instantanea, envio y reproduccion de mensajes de audio, y transcripcion de audio en tiempo real usando IA.",
     "tecnologias": [
-        "Python",
         "Flask",
         "Flask-SocketIO",
         "WebSockets",
         "OpenAI Realtime API",
-        "MongoDB",
-        "MySql",
         "Cloudinary",
         "asyncio",
         "Whisper (transcripción)",
+        "Scrum",
+        "Swagger"
+    ],
+    "stack": [
         "React Native",
-        "JavaScript"
+        "JavaScript",
+        "Python",
+        "MongoDB",
+        "MySql"
     ],
     "caracteristicas": [
         "Registro e inicio de sesión de usuarios",

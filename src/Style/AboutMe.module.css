@@ -217,3 +217,27 @@
 :global(body) {
   background: #181a20 !important;
 }
+
+.techTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  padding: 0 12px 12px;
+}
+
+.techTag {
+  background: transparent;
+  border: 1px solid #6366f1;
+  color: #818cf8;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.techTag:hover {
+  background: rgba(99, 102, 241, 0.1);
+  border-color: #818cf8;
+}
