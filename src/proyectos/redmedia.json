@@ -12,7 +12,7 @@
     ],
     "caracteristicas": [
         "Registro, login y recuperación de contraseña con validación de email",
-        "Edición de perfil de usuario (excepto email), incluyendo imagen de perfil",
+        "Edición de perfil de usuario",
         "Visualización y edición de datos de perfil, listado de amigos/seguidores y posts realizados",
         "Sistema de gamificación por niveles según actividad (posts y comentarios)",
         "Timeline cronológico con scroll infinito y paginación",
@@ -28,5 +28,6 @@
         "Testing automatizado de la aplicación"
     ],
     "frontend": "https://github.com/MauEscalante/RedMediaMOBILE",
-    "backend": "https://github.com/MauEscalante/BackEnd-RedMedia"
+    "backend": "https://github.com/MauEscalante/BackEnd-RedMedia",
+    "video": "https://youtube.com/shorts/MlBkr-mQyew"
 }

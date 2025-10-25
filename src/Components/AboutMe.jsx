@@ -32,13 +32,13 @@ const AboutMe = () => {
       <section className={styles.section}>
         <h2>Sobre mi</h2>
         <p>
-          actualmente estoy en el cuarto año de la Licenciatura en Sistemas. A lo largo de la carrera no solo adquirí conocimientos en bases de datos, lenguajes de programacion, APIs y en diversas tecnologías, sino que también entendí la importancia de la organización, la comunicación, documentación y el trabajo en equipo en un proyecto, habilidades que considero fundamentales para mi desarrollo profesional.
+          Actualmente estoy en el cuarto año de la Licenciatura en Sistemas. A lo largo de la carrera no solo adquirí conocimientos en bases de datos, lenguajes de programacion, APIs y en diversas tecnologías, sino que también entendí la importancia de la organización, la comunicación, documentación y el trabajo en equipo en un proyecto.
         </p>
       </section>
       <section className={styles.section}>
         <h2>Educación</h2>
         <ul>
-          <li><strong>Universidad Argentina de la Empresa</strong> (2021 - actualidad, 32 materias aprobadas)<br />Licenciatura en Gestión de Tecnología de la Información</li>
+          <li><strong>Universidad Argentina de la Empresa</strong> (2021 - actualidad, 33 materias aprobadas)<br />Licenciatura en Gestión de Tecnología de la Información</li>
         </ul>
       </section>
       <section className={styles.section}>
