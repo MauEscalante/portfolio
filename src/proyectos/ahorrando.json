@@ -13,8 +13,7 @@
     "stack": [
         "React.js",
         "Node.js",
-        "MongoDB",
-        "API RESTful"
+        "MongoDB"
     ],
     "caracteristicas": [
         "Scraping de precios en tiendas tecnológicas argentinas",
