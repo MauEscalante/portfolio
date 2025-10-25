@@ -1,0 +1,40 @@
+{
+    "icon": "/assets/signalink.png",
+    "titulo": "Signalink",
+    "imagen": "/assets/signalink.png",
+    "idea": "Este proyecto universitario surgio por el interes de fomentar la integracion de personas con discapacidad auditiva a traves de la tecnologia. La idea principal es desarrollar una aplicacion mobile  para habilitar la comunicación bidireccional en tiempo real entre lengua de señas, texto y audio, facilitando la inclusion social y mejorando la calidad de vida de estas personas.",
+    "descripcion": "Lo que desarrollamos es un prototipo que combina dos cosas: por un lado, un guante inteligente hecho por SingaLink IMPA, y por el otro, una aplicación móvil por Singalink UADE. Los dos se conectan por Bluetooth y lo que hacen juntos es traducir en tiempo real la lengua de señas a texto y a audio. Con la aplicacion se podra calibrar el guante de manera personalizada, ver el historial de conversaciones, y tambien detectar a otras personas cercanas que tengan la app instalada para facilitar la comunicacion. Ademas, la app incluye funciones adicionales como mensajeria de texto instantanea, envio y reproduccion de mensajes de audio, y transcripcion de audio en tiempo real usando IA.",
+    "tecnologias": [
+        "Python",
+        "Flask",
+        "Flask-SocketIO",
+        "WebSockets",
+        "OpenAI Realtime API",
+        "MongoDB",
+        "MySql",
+        "Cloudinary",
+        "asyncio",
+        "Whisper (transcripción)",
+        "React Native",
+        "JavaScript"
+    ],
+    "caracteristicas": [
+        "Registro e inicio de sesión de usuarios",
+        "Traduccion de señas a texto mediante guante inteligente",
+        "Calibracion personalizada del guante",
+        "Deteccion de personas cercanas con la app instalada",
+        "Conversion de texto a audio",
+        "Historial de conversaciones",
+        "Historial de conversaciones",
+        "Transcripción de audio en tiempo real con OpenAI Whisper",
+        "Mensajería de texto instantánea",
+        "Envío y reproducción de mensajes de audio",
+        "Conexión WebSocket persistente con OpenAI",
+        "Almacenamiento de archivos multimedia en Cloudinary",
+        "Sistema de grupos/conversaciones",
+        "Rate limiting inteligente para prevenir errores 429"
+    ],
+    "frontend": "En desarrollo hasta 15/11/2025",
+    "backend": "En desarrollo hasta 15/11/2025",
+    "video": "En desarrollo hasta 15/11/2025"
+}

@@ -95,6 +95,19 @@ const Project = () => {
                             <span className={styles.repoLabel} > (puede tardar un momento en cargar)</span>
                         </li>
                     )}
+                    {data.video && (
+                        <li>
+                            <span className={styles.repoLabel}>Video: </span>
+                            <a
+                                href={data.video}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={styles.repoLink}
+                            >
+                                {data.video}
+                            </a>
+                        </li>
+                    )}
                 </ul>
             </section>
         </div>

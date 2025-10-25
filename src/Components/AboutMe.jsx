@@ -7,6 +7,8 @@ import redmediaData from '../proyectos/redmedia.json';
 import gimnasioData from '../proyectos/gimnasioPOO.json';
 import styles from '../Style/AboutMe.module.css'
 import fotoCv from '../assets/fotoCv.jpeg';
+import signalinkData from '../proyectos/signalink.json';
+import signalink from '../assets/signalink.png';
 
 const AboutMe = () => {
   const navigate = useNavigate();
@@ -83,6 +85,10 @@ const AboutMe = () => {
           <div className={styles.resourceCard} onClick={() => handleProjectClick(gimnasioData)}>
             <img src={gimnasio} alt={gimnasioData.titulo} />
             <div className={styles.resourceTitle}>{gimnasioData.titulo}</div>
+          </div>
+          <div className={styles.resourceCard} onClick={() => handleProjectClick(signalinkData)}>
+            <img src={signalink} alt={signalinkData.titulo} />
+            <div className={styles.resourceTitle}>{signalinkData.titulo}</div>
           </div>
         </div>
       </section>
