@@ -26,6 +26,11 @@ const AboutMe = () => {
           <div className={styles.headerText}>
             <h1>Mauricio Escalante</h1>
             <p><strong>Estudiante de Licenciatura en gestión de tecnología de la información. </strong></p>
+            <section className={styles.section}>
+              <div className={styles.contactLine}>
+                <a href="mailto:escalantemauricio2002@gmail.com">escalantemauricio2002@gmail.com</a> | 11 6295-3547 | Bernal Oeste, Quilmes
+              </div>
+            </section>
           </div>
         </div>
       </header>
@@ -61,15 +66,20 @@ const AboutMe = () => {
       </section>
       <section className={styles.section}>
         <h2>Idiomas</h2>
-        <p>Español (nativo), Inglés (básico)</p>
+        <p>Español (nativo), Inglés (A2+)</p>
+      </section>
+      <section className={styles.section}>
+        <h2>Experiencia:</h2>
+        <h4>Administrador en inmobiliaria Uzquiza</h4>
+        <ul>
+          <li>Cobro y liquidación de alquileres</li>
+          <li>Atención al cliente y gestión de consultas</li>
+          <li>Visitas a inmuebles</li>
+          <li>Realización de contratos y recibos</li>
+          <li>Organización de documentación</li>
+        </ul>
       </section>
 
-      <section className={styles.section}>
-        <div className={styles.contactLine}>
-          <h2>Contacto:</h2>
-          <a href="mailto:escalantemauricio2002@gmail.com">escalantemauricio2002@gmail.com</a> | 11 6295-3547 | Bernal Oeste, Quilmes
-        </div>
-      </section>
 
       <section className={styles.resourcesSection}>
         <h2>Proyectos</h2>
