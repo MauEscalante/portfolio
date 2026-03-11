@@ -38,7 +38,6 @@
         "Sistema de grupos/conversaciones",
         "Rate limiting inteligente para prevenir errores 429"
     ],
-    "frontend": "En desarrollo hasta 15/11/2025",
-    "backend": "En desarrollo hasta 15/11/2025",
-    "video": "En desarrollo hasta 15/11/2025"
+    "frontend": "https://github.com/MauEscalante/signaLink-app",
+    "backend": "https://github.com/MauEscalante/signaLink-Back"
 }

@@ -70,10 +70,20 @@ const AboutMe = () => {
           <a href="mailto:escalantemauricio2002@gmail.com">escalantemauricio2002@gmail.com</a> | 11 6295-3547 | Bernal Oeste, Quilmes
         </div>
       </section>
-      
+
       <section className={styles.resourcesSection}>
         <h2>Proyectos</h2>
+
         <div className={styles.resourcesGrid}>
+          <div className={styles.resourceCard} onClick={() => handleProjectClick(signalinkData)}>
+            <img src={signalink} alt={signalinkData.titulo} />
+            <div className={styles.resourceTitle}>{signalinkData.titulo}</div>
+            <div className={styles.techTags}>
+              {signalinkData.stack?.map((tech, index) => (
+                <span key={index} className={styles.techTag}>{tech}</span>
+              ))}
+            </div>
+          </div>
           <div className={styles.resourceCard} onClick={() => handleProjectClick(redmediaData)}>
             <img src={redmedia} alt="Red Social" />
             <div className={styles.resourceTitle}>Red Social Mobile</div>
@@ -101,15 +111,7 @@ const AboutMe = () => {
               ))}
             </div>
           </div>
-          <div className={styles.resourceCard} onClick={() => handleProjectClick(signalinkData)}>
-            <img src={signalink} alt={signalinkData.titulo} />
-            <div className={styles.resourceTitle}>{signalinkData.titulo}</div>
-            <div className={styles.techTags}>
-              {signalinkData.stack?.map((tech, index) => (
-                <span key={index} className={styles.techTag}>{tech}</span>
-              ))}
-            </div>
-          </div>
+
         </div>
       </section>
     </div>
